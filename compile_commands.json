@@ -1,0 +1,17 @@
+[
+  {
+    "arguments": [
+      "/usr/lib64/ccache/gcc",
+      "-std=c17",
+      "-Wall",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "build/window.o",
+      "src/window.c"
+    ],
+    "directory": "/home/bruno/Personal/software/utilpanel",
+    "file": "/home/bruno/Personal/software/utilpanel/src/window.c",
+    "output": "/home/bruno/Personal/software/utilpanel/build/window.o"
+  }
+]

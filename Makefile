@@ -9,7 +9,7 @@ OBJ := $(patsubst $(SRC_DIR)/%.c,$(BUILD_DIR)/%.o,$(SRC))
 
 TARGET := $(BUILD_DIR)/main
 
-CFLAGS := -std=c17 -Wall
+CFLAGS := -std=c17 -Wall -Iinclude
 LDFLAGS := -lSDL2main -lSDL2
 
 all: $(TARGET)
